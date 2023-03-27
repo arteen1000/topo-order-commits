@@ -1,6 +1,6 @@
 # topo-order-commits
 Implementation will search for `.git` directory and perform a deterministic topological sort of the commits reachable from any
-branch heads found.
+branch heads found and perform any relevant error-handling.
 
 Here is an example:
 
