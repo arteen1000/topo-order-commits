@@ -22,11 +22,12 @@ Graph considered (reachable from branches only):
             c5 -> c6 (branch-3)
 ```
 
-Valid topological order (same in subsequent calls):
-
+Possible topological order (same in subsequent calls):
+```
 (c6, c5, c4, c3, c2, c1, c0)
-Valid sticky graph (# indicate my comment:
+```
 
+Sticky graph (`#` indicate comments):
 ```
 c6 branch-3
 c5
